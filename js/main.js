@@ -19,13 +19,21 @@ let ButtonColor = function(){
 ButtonChageColor.addEventListener('click',e=>ButtonColor());
 
 button1.addEventListener('click',e=>{
-    block1.style.backgroundImage = "url('../css/image/image_html.png')"
+    block2.style.backgroundImage = "url('../css/image/image_html.png')"
+    block2.style.backgroundRepeat = "no-repeat"
+    block2.style.justifyItems = "center"
 });
 
 button2.addEventListener('click',e=>{
-    block1.style.backgroundImage = "url('../css/image/image_css.png')"
+    block2.style.backgroundImage = "url('../css/image/image_css.png')"
+    block2.style.backgroundRepeat = "no-repeat"
+    block2.style.justifyItems = "center"
+
 });
 
 button3.addEventListener('click',e=>{
-    block1.style.backgroundImage = "url('../css/image//image_js.png')"
+    block2.style.backgroundImage = "url('../css/image//image_js.png')"
+    block2.style.backgroundRepeat = "no-repeat"
+    block2.style.justifyItems = "center"
+
 });

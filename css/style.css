@@ -22,7 +22,7 @@ body{
 
 .social_networks{
     position: absolute;
-    left: 2%;
+    right: 10%;
 
 }
 
@@ -72,9 +72,9 @@ h1:hover{
     cursor: pointer;
 }
 
-p{
+#ButtonColor{
     font-size: 16px;
-    color: white;
+    color: white
 }
 
 .block_content{
