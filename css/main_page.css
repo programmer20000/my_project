@@ -20,6 +20,7 @@ body{
     background: rgb(23, 23, 23);
 }
 
+
 .social_networks{
     position: absolute;
     right: 10%;
@@ -28,8 +29,10 @@ body{
 
 a{
     font-size: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
+
+
 
 .block{
     position: absolute;
